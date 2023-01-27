@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap"
       rel="stylesheet"
     />
 
@@ -35,16 +35,18 @@
 
     <main>
       <!-- In het main deel nog in class verdelen-->
-      <section class="hero" id="grey-section">
+      <section id="hero_page" class="hero">
         <h1 class="hero-title">HASTA UN 50% DE DESCUENTO</h1>
         <p class="hero-paragraph">
           Ya están aquí las ofertas de fin de temporada
         </p>
-        <img
-          class="hero-scroll-down"
-          src="./assets/images/ico-scroll-down.svg"
-          alt="scroll down"
-        /><!--zien hoe dit via id/# linken zodat het naar onderkant pagina gaat, het id: grey-section gegeven in css linken-->
+        <a href="#grey_section"
+          ><img
+            class="hero-scroll-down"
+            src="./assets/images/ico-scroll-down.svg"
+            alt="scroll down"
+          /> </a
+        ><!-- goed de id/# linken zodat het aan de bovenkant van grey_section springt als ik erop klik -->
       </section>
       <section class="white-section">
         <small class="white-section-small-title"
@@ -62,9 +64,9 @@
         <a class="white-section-button" href="https://adalab.es/">Comprar</a>
       </section>
 
-      <section class="grey-section">
+      <section id="grey_section" class="grey-section">
+        <!-- goed de id/# linken zodat het aan de bovenkant van grey_section springt als ik erop klik -->
         <h3 class="grey-section-subtitle">Año nuevo, movimientos nuevos</h3>
-
         <article class="grey-section-article">
           <h4 class="grey-section-article-subtitle">Entrenamientos</h4>
           <p class="grey-section-article-paragraph">
@@ -90,10 +92,16 @@
     </main>
 
     <footer class="footer">
-      <!-- In het footer deel nog in class verdelen-->
+      <!--ronde pijl meer naar bovenverscuiven-->
+      <a href="#hero_page"
+        ><img
+          class="hero-scroll-down"
+          src="./assets/images/ico-arrow.svg"
+          alt="arrow-scroll-up"
+        />
+      </a>
       <nav>
         <a class="footer-link" href="https://adalab.es/">
-          <!--aan css class-lijst stylin: none toevoegen-->
           <ul class="footer-list">
             <li class="footer-list-item">ZAPATILLAS</li>
             <li class="footer-list-item">ROPA</li>
@@ -117,3 +125,5 @@
     </footer>
   </body>
 </html>
+
+<!-- afmaken; grey-section met grid/ pijlen op juiste deel vd pagina weergeven (pijl in footer) en verspringen (pijl in hero)/ mediaqueries voor tablet en desktop (rekening houden met %,px,vw/vh)/mainscss in delen verplaatsen naar scss partials /indexhtml verplaatsen naar partials helemaal aan het eind-->
