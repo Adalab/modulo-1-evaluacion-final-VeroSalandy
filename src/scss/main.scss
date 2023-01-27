@@ -14,7 +14,7 @@
     margin: 0;  
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;;
 }
 
 .header{
@@ -42,7 +42,7 @@
    
 
 }
-.hero-title{
+.hero-title{ 
     font-size: 30px;
    
 }
@@ -67,5 +67,31 @@
 }*/
 
 .white-section{
+    display: block;
+    margin: 9% 5% 9% 5%;
+
+}
+.white-section-small-title{
+    font-size: 14px;
+    color: #f26002;
+}
+.white-section-subtitle{/*add font-family robotoSlab-Bold*/
+    font-size: 24px;
+    color: #000000;
+    padding: 5% 0% 5% 0%;
     
+}
+.white-section-paragraph{
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 10%;
+}
+.white-section-button{
+    color: #f26002;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
+    padding: 2% 10% 2% 10%;
+   
 }
