@@ -43,6 +43,7 @@
 
 }
 .hero-title{ 
+    font-weight: bold;
     font-size: 30px;
    
 }
@@ -68,6 +69,9 @@
 
 .white-section{
     display: block;
+        /*width: 315px;
+        height: 376px;
+        flex-grow: 0; dit hierboven wel of niet gebruiken*/
     margin: 9% 5% 9% 5%;
 
 }
@@ -77,6 +81,7 @@
 }
 .white-section-subtitle{/*add font-family robotoSlab-Bold*/
     font-size: 24px;
+    font-weight: bold;
     color: #000000;
     padding: 5% 0% 5% 0%;
     
@@ -94,4 +99,80 @@
     border: solid 2px #f26002;
     padding: 2% 10% 2% 10%;
    
+}
+.grey-section{
+    background-color: #f2f2f2;
+    /*margin-left: 5%;*/
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+
+
+}
+.grey-section-subtitle{
+    font-weight: bold;
+    font-size: 20px;
+    grid-column: span 2;
+   
+.grey-section-article{
+    grid-column: span 2;
+}
+  
+}
+.grey-section-article-subtitle{
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    
+}
+.grey-section-article-paragraph{
+    font-size: 18px;
+    
+}
+.grey-section-button{
+    color: #f2f2f2;
+    background-color: #f26002;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
+    padding: 2% 2% 2% 10%;
+    grid-column: span 1;
+}
+.footer{
+    background-color: #4a4a4a;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10%;
+    
+
+}
+.footer-link{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-list{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10%;
+
+}
+.footer-list-item{
+    margin: 2%;
+}
+.footer-list-socialmedia{
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.footer-list-socialmedia-item{
+    margin: 2%;
 }
