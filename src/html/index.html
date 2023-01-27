@@ -10,6 +10,13 @@
     <!-- Icons
     Bekijken wat ik hier nog moet linken, lettertype, images, icons etc
     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
@@ -21,28 +28,29 @@
   <script src="./assets/js/main.js"></script> -->
 
     <header class="header">
-      <img src="" alt="menu" />
+      <a href="https://adalab.es/"
+        ><img src="./assets/images/ico-menu.svg" alt="menu" />
+      </a>
     </header>
-
-    <section class="hero">
-      <div class="hero-content">
-        <img
-          src="./assets/images/cover.jpeg"
-          alt="male runner tying shoelaces"
-        />
-        <h1 class="hero-title">HASTA UN 50% DE DESCUENTO</h1>
-        <p class="hero-paragraph">
-          Ya están aquí las ofertas de fin de temporada
-        </p>
-        <button>boton flecha</button>
-        <!--zien hoe dit via id/# linken zodat het naar onderkant pagina gaat-->
-      </div>
-    </section>
 
     <main>
       <!-- In het main deel nog in class verdelen-->
+      <section class="hero">
+        <!--<img
+          src="./assets/images/cover.jpeg"
+          alt="male runner tying shoelaces"
+        />-->
+        <div class="hero-content">
+          <h1 class="hero-title">HASTA UN 50% DE DESCUENTO</h1>
+          <p class="hero-paragraph">
+            Ya están aquí las ofertas de fin de temporada
+          </p>
+          <!--<button type="button">boton flecha</button>-->
+        </div>
+        <!--zien hoe dit via id/# linken zodat het naar onderkant pagina gaat-->
+      </section>
       <section class="white-section">
-        <p>Los sentimientos nos inspiran</p>
+        <small>sentimientos nos inspiran</small>
         <article>
           <h2>Conecta Contigo</h2>
           <p>
@@ -51,8 +59,7 @@
             del movimiento y a la plena consciencia que tan bien nos hacen
             sentir.
           </p>
-          <button>Comprar</button>
-          <!--linken naar adalab webside, met a href? uitzoeken-->
+          <a href="https://adalab.es/"><button>Comprar</button></a>
         </article>
       </section>
 
@@ -71,28 +78,33 @@
           <h4></h4>
           <p></p>
         </article>
-        <button>Empezar ahora</button
-        ><!--linken naar adalab webside, met a href? uitzoeken-->
+        <a href="https://adalab.es/"><button>Empezar ahora</button></a>
       </section>
     </main>
 
     <footer>
       <!-- In het footer deel nog in class verdelen-->
       <nav>
-        <ul>
-          <li>ZAPATILLAS</li>
-          <li>ROPA</li>
-          <li>NINO/A</li>
-          <li>DESTACADOS</li>
-          <li>TIPS</li>
-        </ul>
+        <a href="https://adalab.es/">
+          <!--aan css class-lijst stylin: none toevoegen-->
+          <ul>
+            <li>ZAPATILLAS</li>
+            <li>ROPA</li>
+            <li>NINO/A</li>
+            <li>DESTACADOS</li>
+            <li>TIPS</li>
+          </ul>
+        </a>
       </nav>
       <nav>
-        <ul>
-          <li>TWITTER</li>
-          <li>INSTAGRAM</li>
-          <li>YOUTUBE</li>
-        </ul>
+        <a href="https://adalab.es/"
+          ><!--aan css class-lijst styling none toevoegen-->
+          <ul>
+            <li>TWITTER</li>
+            <li>INSTAGRAM</li>
+            <li>YOUTUBE</li>
+          </ul>
+        </a>
       </nav>
       <p>&copy; 2023</p>
       <p>we (icono corazon) run</p>
