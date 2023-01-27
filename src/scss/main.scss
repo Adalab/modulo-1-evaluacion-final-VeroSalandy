@@ -30,12 +30,42 @@
 
 .hero{
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
    /* width: 100vw;*/
     height: 100vh;
     background-image: url(../images/cover.jpeg);
     background-size: cover;
+   
+
 }
-.hero-content{
-    display: flex;
-    flex-direction: column;
+.hero-title{
+    font-size: 30px;
+   
+}
+.hero-paragraph{
+    font-size: 16px;
+    padding: 5%;
+  
+
+}
+.hero-scroll-down{
+    background-color:#ffffff;
+    width: 37.9px;
+    height: 35.7px;
+    border-radius: 50%;
+    padding: 9px;
+    margin-bottom: 15%;
+    
+}
+/*linken met id grey-section zodat als je erop klikt het naar beneden die section gaat 
+#grey-section {
+    scroll-padding-top: 110px;
+}*/
+
+.white-section{
+    
 }
