@@ -37,11 +37,12 @@
     text-align: center;
    /* width: 100vw;*/
     height: 100vh;
-    background-image: url(../assets/images/cover.jpeg)
+    background-image: url("../../assets/images/cover.jpeg"); /*moet ik hier 2x ../ ,dan assets voor images doen, want miguel heeft het anders: ../images/cover etc*/
     background-size: cover;
-
-
+    background-position: top;
+    /*padding-bottom: 30px; deze  lijn wel gebruiken of niet zijn van andere per)*/
 }
+
 .hero-title{ 
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
