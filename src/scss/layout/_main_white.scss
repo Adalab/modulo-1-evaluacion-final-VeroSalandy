@@ -1,0 +1,46 @@
+.white-section {
+    display: block;
+    width: auto;
+    /*315px*/
+    height: auto;
+    /*height: 376px; /*zien of ik dit gbruik of niet
+        /*width: 315px;
+        
+        flex-grow: 0; dit hierboven wel of niet gebruiken*/
+    margin: 40px 10px 50px 20px;
+
+}
+
+.white-section-small-title {
+    font-size: 14px;
+    color: #f26002;
+}
+
+.white-section-subtitle {
+    /*add font-family robotoSlab-Bold*/
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    padding: 5% 0% 5% 0%;
+
+}
+
+.white-section-paragraph {
+    font-size: 18px;
+    line-height: 1.67;
+    color: #4a4a4a;
+    margin-bottom: 25px;
+}
+
+.white-section-button {
+    color: #f26002;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
+    padding: 2% 10% 2% 10%;
+
+}
+
+
+/* met mediaquieri voor table witte knop meer borderadius geven en met afstand tussen paragraaf en knop en tussen knog en grijze deel*/
