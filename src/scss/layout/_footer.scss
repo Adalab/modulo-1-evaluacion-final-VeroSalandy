@@ -3,9 +3,9 @@
     color: #ffffff;
     font-size: 14px;
     text-align: center;
-    padding-bottom: 10%;
     width: auto;
     height: auto;
+    padding-bottom: 20px;
 
 
 }
@@ -40,9 +40,36 @@
 .footer-list-socialmedia-item {
     margin: 2%;
 }
+.footer-copyright{
+    font-size: 14px;
+    line-height: 30px;
+
+
+}
+
 
 /*@media and all (min-width: 768px){
     .footer-list . .footer-list-socialmedia{
         flex-direction: row
     }
 }*/
+
+@media all and (min-width: 768px){
+  
+    .footer-div{
+        
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+    }
+    .footer-copyright{
+        grid-row: 1 / 2;
+    }
+}
+ /*width: 55vw;
+ height: 40vh;
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: 1fr 1fr 1fr;*/
