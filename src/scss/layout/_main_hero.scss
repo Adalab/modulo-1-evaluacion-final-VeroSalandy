@@ -18,6 +18,10 @@
 .hero-title {
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
+    line-height: 1.67;
+
+   /* line-height: 1.90; hoe voeg ik hier ruimte tussen tekst door*/
+    
 
 
 }
@@ -25,6 +29,8 @@
 .hero-paragraph {
     font-size: 16px;
     padding: 10px;
+    line-height: 1.19;
+    
 
 
 }
@@ -45,3 +51,24 @@ linken met id grey-section zodat als je erop klikt het naar beneden die section 
 #grey-section {
     scroll-padding-top: 110px;
 }*/
+
+@media all and (min-width: 768px) {
+    .hero{
+        background-position: center left;
+        width: 768px;
+        height: 768px;
+    }
+    .hero-title{
+        font-size: 75px;
+        line-height: 1.33;
+    }
+    .hero-paragraph{
+        font-size: 24px;
+        width: 340px;
+        line-height: 28px;
+    }
+    .hero-scroll-down{
+        width: 42.5px;
+        height: 45px;
+    }
+}

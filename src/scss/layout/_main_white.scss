@@ -7,7 +7,7 @@
         /*width: 315px;
         
         flex-grow: 0; dit hierboven wel of niet gebruiken*/
-    margin: 40px 10px 50px 20px;
+    margin: 40px 10px 40px 20px;
 
 }
 
@@ -33,14 +33,41 @@
 }
 
 .white-section-button {
+    display: inline-block;
     color: #f26002;
     text-decoration: none;
     font-size: 20px;
     border-radius: 22.5px;
     border: solid 2px #f26002;
-    padding: 2% 10% 2% 10%;
+    padding: 5px 15px 5px 15px;
 
 }
 
 
 /* met mediaquieri voor table witte knop meer borderadius geven en met afstand tussen paragraaf en knop en tussen knog en grijze deel*/
+
+@media all and (min-width: 768px) {
+   
+    .white-section-small-title{
+        font-size: 16px;
+
+    }
+    .white-section-subtitle{
+     
+        font-size: 32px;
+        padding: 3% 0% 3% 0%;
+    }
+    .white-section-paragraph{
+        width: 690px;
+        height: 90px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .white-section-button{
+        text-align: center;
+        width: 120px;
+        height: 46px;
+        border-radius: 35px;
+        padding-top: 10px;
+    }
+}
