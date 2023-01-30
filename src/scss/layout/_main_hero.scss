@@ -39,7 +39,7 @@
     height: 35.7px;
     border-radius: 50%;
     padding: 9px;
-    margin-bottom: 15%;
+    margin-bottom: 35px;
 
 }
 
@@ -70,5 +70,18 @@ linken met id grey-section zodat als je erop klikt het naar beneden die section 
     .hero-scroll-down{
         width: 42.5px;
         height: 45px;
+    }
+}
+
+@media all and (min-width: 1200px){
+    .hero-title{
+        font-size: 100px;
+        line-height: 132px;
+        width: 955px;
+
+    }
+    .hero-paragraph{
+        width: 749px;
+        padding-bottom: 25px;
     }
 }

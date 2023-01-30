@@ -73,7 +73,8 @@
     font-size: 20px;
     border-radius: 22.5px;
     border: solid 2px #f26002;
-    padding: 2% 2% 2% 2%;
+    padding: 10px;
+    
 }
 
 @media all and (min-width: 768px){
@@ -97,6 +98,7 @@
         padding-bottom: 5%;
     }
     .grey-section-article-paragraph {
+        width: 213px;
         font-size: 20px;
         line-height: 1.5;
     }
@@ -105,7 +107,14 @@
         border-radius: 25px;
 
     }
-    /*.grey-section-article-paragraph {
-    line-height: ;
-}*/ /*Hier nog alles aan desktop toevoegen*/
+}
+
+@media all and (min-width: 1200px){
+    .grey-section-subtitle{
+        font-size: 32px;
+    }
+    .grey-section-article-paragraph{
+        width: auto;
+    }     
+    
 }
