@@ -4,47 +4,46 @@
     height: auto;
     margin: 40px 10px 40px 20px;
 
+    &-small-title {
+            font-size: 14px;
+            color: #f26002;
+        }
+    
+    &-subtitle {
+            font-size: 24px;
+            font-family: 'Roboto Slab', serif;
+            color: #000000;
+            padding: 5% 0% 5% 0%;
+    
+        }
+    
+    &-paragraph {
+            font-size: 18px;
+            line-height: 1.67;
+            color: #4a4a4a;
+            margin-bottom: 25px;
+        }
+    
+    &-button {
+            display: inline-block;
+            color: #f26002;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 22.5px;
+            border: solid 2px #f26002;
+            padding: 5px 15px 5px 15px;
+    
+        }
 }
 
-.white-section-small-title {
-    font-size: 14px;
-    color: #f26002;
-}
 
-.white-section-subtitle {
-    font-size: 24px;
-    font-family: 'Roboto Slab', serif;
-    color: #000000;
-    padding: 5% 0% 5% 0%;
-
-}
-
-.white-section-paragraph {
-    font-size: 18px;
-    line-height: 1.67;
-    color: #4a4a4a;
-    margin-bottom: 25px;
-}
-
-.white-section-button {
-    display: inline-block;
-    color: #f26002;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 22.5px;
-    border: solid 2px #f26002;
-    padding: 5px 15px 5px 15px;
-
-}
 
 @media all and (min-width: 768px) {
-   
     .white-section-small-title{
         font-size: 16px;
 
     }
     .white-section-subtitle{
-     
         font-size: 32px;
         padding: 3% 0% 3% 0%;
     }
@@ -65,10 +64,13 @@
 
 @media all and (min-width: 1200px) {
     .white-section{
+
         padding: 35px 0px 35px 275px;
+
+        .white-section-paragraph {
+                font-size: 20px;
+                width: 870px;
+            }
     }    
-    .white-section-paragraph{
-        font-size: 20px;
-        width: 870px;
-    }
+    
 }

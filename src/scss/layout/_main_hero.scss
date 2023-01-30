@@ -11,30 +11,30 @@
     background-size: cover;
     background-position: top;
     padding-bottom: 40px;
-}
 
-.hero-title {
-    font-family: 'Roboto Slab', serif;
-    font-size: 30px;
-    width: 320px;
-    line-height: 1.67;
-}
+    &-title {
+            font-family: 'Roboto Slab', serif;
+            font-size: 30px;
+            width: 320px;
+            line-height: 1.67;
+        }
 
-.hero-paragraph {
-    font-size: 16px;
-    padding: 10px;
-    width: 244px;
-    line-height: 1.19;
-}
-
-.hero-scroll-down {
-    background-color: #ffffff;
-    width: 37.9px;
-    height: 35.7px;
-    border-radius: 50%;
-    padding: 9px;
-    margin-bottom: 35px;
-
+    &-paragraph {
+            font-size: 16px;
+            padding: 10px;
+            width: 244px;
+            line-height: 1.19;
+        }
+    &-scroll-down {
+            background-color: #ffffff;
+            width: 37.9px;
+            height: 35.7px;
+            border-radius: 50%;
+            padding: 9px;
+            margin-bottom: 35px;
+    
+        }
+    
 }
 
 @media all and (min-width: 768px) {
@@ -42,22 +42,25 @@
         background-position: center left;
         width: auto;
         height: 768px;
-    }
-    .hero-title{
-        font-size: 75px;
-        width: 768px;
-        line-height: 1.33;
-      
-    }
-    .hero-paragraph{
-        font-size: 24px;
-        width: 340px;
-        line-height: 1.17;
-    }
-    .hero-scroll-down{
-        width: 42.5px;
-        height: 45px;
-    }
+
+        .hero-title {
+                font-size: 75px;
+                width: 768px;
+                line-height: 1.33;
+            }
+        .hero-paragraph {
+                font-size: 24px;
+                width: 340px;
+                line-height: 1.17;
+            }
+        
+        .hero-scroll-down {
+                width: 42.5px;
+                height: 45px;
+            }
+            
+        
+}
 }
 
 @media all and (min-width: 1200px){
