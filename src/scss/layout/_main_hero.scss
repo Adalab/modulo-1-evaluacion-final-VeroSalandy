@@ -8,11 +8,9 @@
     width: 100vw;
     height: 100vh;
     background-image: url("../../assets/images/cover.jpeg");
-    /*moet ik hier 2x ../ ,dan assets voor images doen, want miguel heeft het anders: ../images/cover etc*/
     background-size: cover;
     background-position: top;
     padding-bottom: 40px;
-    /*padding-bottom: 30px; deze  lijn wel gebruiken of niet zijn van andere per)*/
 }
 
 .hero-title {
@@ -20,7 +18,6 @@
     font-size: 30px;
     width: 320px;
     line-height: 1.67;
-
 }
 
 .hero-paragraph {
@@ -28,9 +25,6 @@
     padding: 10px;
     width: 244px;
     line-height: 1.19;
-    
-
-
 }
 
 .hero-scroll-down {
@@ -42,13 +36,6 @@
     margin-bottom: 35px;
 
 }
-
-/* belangijk h1 de pixel vergroten en ook de tekst die eronder komtn 
-
-linken met id grey-section zodat als je erop klikt het naar beneden die section gaat 
-#grey-section {
-    scroll-padding-top: 110px;
-}*/
 
 @media all and (min-width: 768px) {
     .hero{

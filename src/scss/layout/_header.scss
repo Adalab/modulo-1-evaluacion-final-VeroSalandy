@@ -1,5 +1,5 @@
 .header {
-    display: inline-block; /*dit laten of weghalen?*/
+    display: inline-block; 
     background-color: #f26002;
     position: fixed;
     z-index: 2;
@@ -7,7 +7,6 @@
     height: 35px;
     padding-top: 10px;
     padding-left: 10px;
-    /*maten px voor tablet (w; 42px/h;44px) en desktop (w; 46px/h; 45px) veranderen */
 }
 
 @media all and (min-width: 768px){

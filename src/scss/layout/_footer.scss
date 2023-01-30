@@ -40,8 +40,6 @@
 .footer-copyright{
     font-size: 14px;
     line-height: 30px;
-
-
 }
 .hero-scroll-up{
     background-color: #ffffff;
@@ -53,12 +51,6 @@
     position: relative;
     bottom: 25px;
 }
-
-/*@media and all (min-width: 768px){
-    .footer-list . .footer-list-socialmedia{
-        flex-direction: row
-    }
-}*/
 
 @media all and (min-width: 768px){
   
@@ -83,6 +75,7 @@
         line-height: 30px;
     }
 }
+
 @media all and (min-width: 1200px){
     .footer-div{
         gap: 100px;
